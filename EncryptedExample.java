@@ -1,4 +1,4 @@
-package me.psrcek.networkingAPITest;
+package me.psrcek.networkingAPIExample;
 
 import java.io.IOException;
 import java.net.Socket;
@@ -13,7 +13,7 @@ import me.psrcek.networkingAPI.EncryptedClient;
 import me.psrcek.networkingAPI.EncryptedServer;
 import me.psrcek.networkingAPI.ServerMessageRecieveHandler;
 
-public class EncryptionTest {
+public class EncryptedExample {
 	public static void main(String[] args) throws IOException, InterruptedException, ClassNotFoundException, NoSuchAlgorithmException, InvalidKeyException, NoSuchPaddingException, IllegalBlockSizeException, BadPaddingException {
 		
 		final EncryptedServer server = new EncryptedServer(6066, 2048);
